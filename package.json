@@ -19,7 +19,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^9.0.6",
-    "husky": "^4.3.8",
+    "husky": "^8.0.3",
     "semantic-release": "^22.0.0"
   }
 }

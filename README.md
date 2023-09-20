@@ -30,8 +30,10 @@ Follow these instructions to set up the project and configure semantic release.
 Enforcing Conventional Commits with Husky and Commitlint
 1. Install Husky to enforce conventional commit messages and commitlint:
     ```shell
+    npm install --save-dev @commitlint/{config-conventional,cli}
+    npm install --save-dev husky
     npx husky install
-    npm install --save-dev husky@4 @commitlint/{config-conventional,cli}
+    npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
     ``````
     This will ensure that commit messages follow the conventional commit guideline.
 
