@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/lukretium/semantic-release-basic/compare/v1.1.0...v1.1.1) (2023-09-20)
+
+
+### Bug Fixes
+
+* typo in controller ([dfc72e1](https://github.com/lukretium/semantic-release-basic/commit/dfc72e1a69824a43a430202fb64a267f65d1c08f))
+
 # [1.1.0](https://github.com/lukretium/semantic-release-basic/compare/v1.0.0...v1.1.0) (2023-09-20)
 
 
